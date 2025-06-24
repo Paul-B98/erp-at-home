@@ -17,6 +17,16 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.13"
+dependencies = [
+    "assets",
+    "contacts",
+    "finance",
+    "household",
+    "inventory",
+    "notify",
+    "planner",
+    "vault",
+]
 
 [project.urls]
 homepage = "https://github.com/Paul-B98/erp-at-home"
@@ -24,6 +34,19 @@ repository = "https://github.com/Paul-B98/erp-at-home"
 changelog = "https://github.com/Paul-B98/erp-at-home/releases"
 issues = "https://github.com/Paul-B98/erp-at-home/issues"
 documentation = "https://github.com/Paul-B98/erp-at-home/wiki"
+
+[tool.uv.sources]
+assets = { workspace = true }
+contacts = { workspace = true }
+finance = { workspace = true }
+household = { workspace = true }
+inventory = { workspace = true }
+notify = { workspace = true }
+planner = { workspace = true }
+vault = { workspace = true }
+
+[tool.uv.workspace]
+members = ["services/*"]
 
 [build-system]
 requires = ["hatchling"]
