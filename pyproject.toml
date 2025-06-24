@@ -19,7 +19,7 @@ classifiers = [
 requires-python = ">=3.13"
 dependencies = [
     "assets",
-    "contacts",
+    "contracts",
     "finance",
     "household",
     "inventory",
@@ -37,7 +37,7 @@ documentation = "https://github.com/Paul-B98/erp-at-home/wiki"
 
 [tool.uv.sources]
 assets = { workspace = true }
-contacts = { workspace = true }
+contracts = { workspace = true }
 finance = { workspace = true }
 household = { workspace = true }
 inventory = { workspace = true }
