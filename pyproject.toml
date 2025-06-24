@@ -1,16 +1,16 @@
 [project]
-name = "erp-at-home"  # TODO
-description = "ERP solution for a household"  # TODO
+name = "erp-at-home"
+description = "ERP solution for a household"
 version = "0.0.1"
-license = "MIT"  # TODO
+license = "MIT"
 authors = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
 ]
 maintainers = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
 ]
 readme = "README.md"
-keywords = ["Python Lib"]  # TODO
+keywords = ["Household", "ERP"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -19,11 +19,11 @@ classifiers = [
 requires-python = ">=3.13"
 
 [project.urls]
-homepage = "https://github.com/Paul-B98/erp-at-home"  # TODO
-repository = "https://github.com/Paul-B98/erp-at-home"  # TODO
-changelog = "https://github.com/Paul-B98/erp-at-home/releases"  # TODO
-issues = "https://github.com/Paul-B98/erp-at-home/issues"  # TODO
-documentation = "https://github.com/Paul-B98/erp-at-home/wiki"  # TODO
+homepage = "https://github.com/Paul-B98/erp-at-home"
+repository = "https://github.com/Paul-B98/erp-at-home"
+changelog = "https://github.com/Paul-B98/erp-at-home/releases"
+issues = "https://github.com/Paul-B98/erp-at-home/issues"
+documentation = "https://github.com/Paul-B98/erp-at-home/wiki"
 
 [build-system]
 requires = ["hatchling"]
