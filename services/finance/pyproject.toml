@@ -1,0 +1,24 @@
+[project]
+name = "finance"
+description = "Add your description here"
+version = "0.1.0"
+license = "MIT"
+authors = [
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
+]
+maintainers = [
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
+]
+readme = "README.md"
+keywords = ["Finance", "ERP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.3",
+    "django-ninja>=1.4.3",
+    "httpx>=0.28.1",
+]
